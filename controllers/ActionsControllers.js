@@ -9,8 +9,8 @@ require('dotenv').config()
 
 
 //USER E SENHA PARA ENVIO DO EMAIL
-const user = process.env.EMAIL
-const pass = process.env.SENHAEMAIL
+const user = 'aliencorerock@gmail.com'
+const pass = 'fblo aehn wssb hugy'
 
 const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com', 
