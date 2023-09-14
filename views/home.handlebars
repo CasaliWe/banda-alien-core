@@ -1,0 +1,226 @@
+<!--MENU MOBILE-->
+<div id="menu-mobile" class="bg-dark">
+
+    <h1 class="d-none">Menu mobile</h1>
+
+    <a href="/" class="mx-2 _pag-ativa">INÍCIO</a>
+    <a href="/galeria" class="mx-2">GALERIA</a>
+    <a href="/sobre" class="mx-2">SOBRE</a>
+    <a href="/agenda" class="mx-2">AGENDA</a>
+    <a href="/noticias" class="mx-2">NOTÍCIAS</a>
+    <a href="#contato" class="mx-2" onclick="abrirMenuMobile(this, '_toggler')">CONTATO</a>
+
+    <div class="mt-5 pt-3 w-100 text-center">
+         <a href="https://www.instagram.com/aliencore_rock/" target="_blank" class="mx-2"><i class="fab fa-instagram display-2"></i></a>
+         <a href="https://www.facebook.com/aliencorerock" target="_blank" class="mx-2"><i class="fab fa-facebook display-2"></i></a>
+    </div>
+       
+</div>
+<!--MENU MOBILE-->
+
+
+
+<!--MODAL APRESENTAÇÃO INTEGRANTES-->
+<div id="apresentacao-integrantes">
+
+    <h1 class="d-none">Modal apresentação dos integrantes</h1>
+
+    <div class="_container-integrante-apresentacao">
+         <div><img id="img-apresentacao" src="" class="_hover-img-integrante"></div>
+         <div>
+            <h1 class="ps-3 pe-3 d-inline-block mb-4" style="border-left: 2px solid #14EE5A;border-right: 2px solid #14EE5A;" id="nome-apresentacao"> </h1>
+            <p class="text-secondary" id="descri-apresentacao"></p>
+            <button class="_btn-alien mt-3 d-none" onclick="fecharApresentacao()">FECHAR</button>
+         </div>
+    </div>
+
+</div>
+<!--MODAL APRESENTAÇÃO INTEGRANTES-->
+
+
+
+
+
+
+
+
+<!--BANNER INICIAL / NAVEGAÇÃO DESKTOP-->
+<header class="_header-home w-100 contianer-fluid bg-dark d-flex flex-column justify-content-center align-items-center">
+
+    <nav class="_nav-desk-home p-4 p-xxl-5 w-100 d-flex justify-content-between justify-content-lg-center">
+            <div class="align-self-center d-none d-lg-block">
+                <a href="/" class="mx-2 _pag-ativa _hover-link-nav">INÍCIO</a>
+                <a href="/galeria" class="mx-2 _hover-link-nav">GALERIA</a>
+                <a href="/sobre" class="mx-2 _hover-link-nav">SOBRE</a>
+            </div>
+
+            <a href="/" class="align-self-center"><img src="/img/site/logo.png" alt="Logo Alien Core" class="_logo-nav-desktop"></a>
+
+            <div class="align-self-center d-none d-lg-block">
+                <a href="/agenda" class="mx-2 _hover-link-nav">AGENDA</a>
+                <a href="/noticias" class="mx-2 _hover-link-nav">NOTÍCIAS</a>
+                <a href="#contato" class="mx-2 _hover-link-nav">CONTATO</a>
+            </div>
+
+            <!--Toggler mobile-->
+            <button class="_toggler d-block d-lg-none" onclick="abrirMenuMobile(this)"><i class="fas fa-bars"></i></button>
+            <!--Toggler mobile-->
+    </nav>
+
+
+    <div class="w-100">
+           <h1 class="_titulo-inicio text-center">Explorando os Limites do Rock <br> com a <span class="text-alien">Alien Core</span></h1>
+
+           <div class="_divisao-inicio"></div>
+
+           <h2 class="_sub-inicio text-center mt-4 fw-normal">O MELHOR DO ROCK INTERNACIONAL</h2>
+
+           <div class="mt-5 d-flex justify-content-center"><a href="/sobre" class="_btn-alien _btn-inicio mx-auto"><i class="fas fa-info-circle me-2"></i> CONHEÇA A BANDA</a></div>
+    </div>
+
+
+    <div class="_icons-inicio text-center">
+         <a href="https://www.instagram.com/aliencore_rock/" target="_blank" class="mx-2"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.facebook.com/aliencorerock" target="_blank" class="mx-2"><i class="fab fa-facebook"></i></a>
+         <a href="mailto:aliencorerock@gmail.com" class="mx-2"><i class="fas fa-envelope"></i></a>
+    </div>
+      
+</header>
+<!--BANNER INICIAL / NAVEGAÇÃO DESKTOP-->
+
+
+
+<!--NOTICIAS-->
+<section id="noticias-home" class="bg-dark p-5 d-flex flex-column justify-content-center align-items-center">
+
+         <h1 class="d-none">Notícias da Alien Core</h1>
+
+         <h1 data-aos="fade-up" class="_title-sessao-noticias-home px-3">ÚLTIMAS NOTÍCIAS</h1>
+         <h3 data-aos="fade-up" class="_sub-sessao-noticias-home text-secondary mb-2 mb-lg-4">Tudo que rolou recentemente, Bem vindos a Alien Core!</h3>
+
+         <div class="w-100 row mt-5 justify-content-center gap-2">
+
+              <a data-aos="fade-up" href="/noticia/id" class="col-12 col-lg-3 mb-4 _container-noticia-home">
+                  <div>
+                       <div class="_container-img-noticia-home"> <img src="/img/site/example1.jpg"> </div>
+                       <h3 class="mt-3">Lorem Ipsum is simply dummy text</h3>
+                       <h5 class="text-secondary mt-2 _descri-noticia-home">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+                       <h5 class="text-alien mt-4">ABRIL - 2023</h5>
+                  </div>
+              </a>
+
+              <a data-aos="fade-up" href="/noticia/id" class="col-12 col-lg-3 mb-4 _container-noticia-home">
+                  <div>
+                      <div class="_container-img-noticia-home"> <img src="/img/site/example2.jpg"> </div>
+                      <h3 class="mt-3">Lorem Ipsum is simply</h3>
+                      <h5 class="text-secondary mt-2 _descri-noticia-home">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+                      <h5 class="text-alien mt-4">MAIO - 2023</h5>
+                  </div>
+              </a>
+
+              <a data-aos="fade-up" href="/noticia/id" class="col-12 col-lg-3 mb-4 _container-noticia-home">
+                  <div>
+                       <div class="_container-img-noticia-home"> <img src="/img/site/example3.jpg"> </div>
+                       <h3 class="mt-3">is simply dummy text GSGSG</h3>
+                       <h5 class="text-secondary mt-2 _descri-noticia-home">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+                       <h5 class="text-alien mt-4">JUNHO - 2023</h5>
+                  </div>
+              </a>
+              
+         </div>
+
+         <button data-aos="fade-up" onclick="window.location.href='/noticias'" class="_btn-alien mt-3 mt-lg-5"><i class="fas fa-eye me-2"></i> TODAS AS NOTÍCIAS</button>
+</section>
+<!--NOTICIAS-->
+
+
+
+<!--SHOWS DA ALIEN CORE BANNER-->
+<section id="shows-alien-core-home">
+
+       <h1 class="d-none">Show da banda Alien Core</h1>
+
+       <div data-aos="fade-up">
+            <h1>SHOWS DA ALIEN CORE</h1>
+            <h4 class="text-secondary">Fique por dentro de onde a Alien Core irá tocar!</h4>
+            <button onclick="window.location.href='/agenda'" class="_btn-alien mt-4"><i class="fas fa-tasks me-2"></i> VER AGENDA</button>
+       </div>
+</section>
+<!--SHOWS DA ALIEN CORE BANNER-->
+
+
+
+
+
+<!--INTEGRANTES-->
+<section id="integrantes-home" class="bg-dark text-center">
+
+        <h1 class="d-none">Integrantes da banda Alien Core</h1>
+
+
+        <h1 data-aos="fade-up" class="_title-sessao-integrantes-home px-3">TIME ALIEN CORE</h1>
+        <h4 data-aos="fade-up" class="text-secondary _sub-sessao-integrantes-home mb-3">Conheça nossos integrantes</h4>
+
+        <div class="_container-integrantes row mt-4 justify-content-center">
+
+            <div data-aos="fade-up" class="col-12 col-lg-3 p-3">
+                <div class="_container-integrantes-img"> <img onclick="abrirApresentacao('jasan')" class="_hover-img-integrante" src="/img/site/jasan.jpg"> </div>
+                <a href="#" class="_instagram-integrante"> <i class="fab fa-instagram me-2"></i> JASAN </a>
+            </div>
+
+            <div data-aos="fade-up" class="col-12 col-lg-3 p-3">
+                <div class="_container-integrantes-img"> <img onclick="abrirApresentacao('weslei')" class="_hover-img-integrante" src="/img/site/weslei.jpeg"> </div>
+                <a href="#" class="_instagram-integrante"> <i class="fab fa-instagram me-2"></i> WESLEI </a>
+            </div>
+
+            <div data-aos="fade-up" class="col-12 col-lg-3 p-3">
+                <div class="_container-integrantes-img"> <img onclick="abrirApresentacao('gui')" class="_hover-img-integrante" src="/img/site/gui.jpg"> </div>
+                <a href="#" class="_instagram-integrante"> <i class="fab fa-instagram me-2"></i> GUI </a>
+            </div>
+
+            <div data-aos="fade-up" class="col-12 col-lg-3 p-3">
+                <div class="_container-integrantes-img"> <img onclick="abrirApresentacao('wilson')" class="_hover-img-integrante" src="/img/site/wilson.jpg"> </div>
+                <a href="#" class="_instagram-integrante"> <i class="fab fa-instagram me-2"></i> WILSON </a>
+            </div>
+
+        </div>
+</section>
+<!--INTEGRANTES-->
+
+
+
+
+<!--FORMULÁRIO-->
+{{> form}}
+<!--FORMULÁRIO-->
+
+
+
+<!--FOOTER-->
+<footer class="bg-dark">
+
+    <h1 class="d-none">Footer site banda Alien Core</h1>
+
+    <nav data-aos="fade-up" class="px-5 py-3 w-100 d-none d-lg-flex justify-content-center">
+            <div class="align-self-center">
+                <a href="/" class="mx-2 _pag-ativa _hover-link-nav">INÍCIO</a>
+                <a href="/galeria" class="mx-2 _hover-link-nav">GALERIA</a>
+                <a href="/sobre" class="mx-2 _hover-link-nav">SOBRE</a>
+            </div>
+
+            <a href="/" class="align-self-center"><img src="/img/site/logo.png" alt="Logo Alien Core" class="_logo-nav-desktop"></a>
+
+            <div class="align-self-center">
+                <a href="/agenda" class="mx-2 _hover-link-nav">AGENDA</a>
+                <a href="/noticias" class="mx-2 _hover-link-nav">NOTÍCIAS</a>
+                <a href="#contato" class="mx-2 _hover-link-nav">CONTATO</a>
+            </div>
+    </nav>
+
+    <div data-aos="fade-up" style="border-bottom: 2px solid gray;" class="mt-1 mb-4 w-75 d-none d-lg-block"></div>
+
+
+    <p class="text-center">© 2023 <span class="text-alien">Alien Core</span>. Todos os direitos reservados. <br> Criado por <a href="https://freeladev.website" target="_blank" style="color: orangered;">Freela Dev</a></p>
+      
+</footer>
+<!--FOOTER-->
