@@ -90,8 +90,10 @@ const phoneMask = (value) => {
 //HOVER EM CIMA DA CAPA SINGLE PARA MOSTRAR ICONS STRAMS
 document.getElementById("container-capa-single").addEventListener('mouseenter', ()=>{
      document.getElementById("container-icons-stream").style.cssText = 'opacity: 1;'
+     document.getElementById("alien-face").style.cssText = 'left: 57%;'
 })
 
 document.getElementById("container-capa-single").addEventListener('mouseleave', ()=>{
     document.getElementById("container-icons-stream").style.cssText = 'opacity: 0;'
+    document.getElementById("alien-face").style.cssText = 'left: 45%;'
 })

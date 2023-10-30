@@ -428,6 +428,7 @@ footer p{
     background-image: url(/img/site/capa-container-single-2.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
 
     background-attachment: fixed;
 }
@@ -469,6 +470,16 @@ footer p{
         opacity: 1;
         background-color: rgba(0, 0, 0, 0.598);
    }
+}
+
+
+
+#alien-face{
+     position: absolute;
+     top: 45%;
+     left: 45%;
+     transform: rotate(30deg);
+     transition: 500ms;
 }
 /*SINGLE*/
 
@@ -632,6 +643,25 @@ footer p{
 }
 /*INTEGRANTES*/
 
+
+
+/*INSTAGRAM*/
+#btn-ver-nosso-instagram{
+    border: 2px solid #14EE5A;
+    border-radius: 7px;
+    padding: 10px 50px;
+    background-color: transparent;
+    transition: 500ms;
+}
+#btn-ver-nosso-instagram:hover{
+    background-color: rgba(255, 255, 255, 0.26);
+}
+@media(max-width:992px){
+    #btn-ver-nosso-instagram{
+        padding: 8px 40px;
+    }
+}
+/*INSTAGRAM*/
 
 /*-------------------------------------------*/
 /*----------------PÁGINA HOME----------------*/
