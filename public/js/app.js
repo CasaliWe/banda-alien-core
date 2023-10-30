@@ -83,3 +83,15 @@ const phoneMask = (value) => {
     value = value.replace(/(\d)(\d{4})$/,"$1-$2")
     return value
 }
+
+
+
+
+//HOVER EM CIMA DA CAPA SINGLE PARA MOSTRAR ICONS STRAMS
+document.getElementById("container-capa-single").addEventListener('mouseenter', ()=>{
+     document.getElementById("container-icons-stream").style.cssText = 'opacity: 1;'
+})
+
+document.getElementById("container-capa-single").addEventListener('mouseleave', ()=>{
+    document.getElementById("container-icons-stream").style.cssText = 'opacity: 0;'
+})
