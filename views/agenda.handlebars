@@ -1,1 +1,113 @@
-<h1>AGENDA!</h1>
+<!--MENU MOBILE-->
+<div id="menu-mobile" class="bg-dark">
+
+    <h1 class="d-none">Menu mobile</h1>
+
+    <a href="/" class="mx-2">INÍCIO</a>
+    <a href="/galeria" class="mx-2">GALERIA</a>
+    <a href="/sobre" class="mx-2">SOBRE</a>
+    <a href="/agenda" class="mx-2 _pag-ativa">AGENDA</a>
+    <a href="/noticias" class="mx-2">NOTÍCIAS</a>
+    <a href="#contato" class="mx-2" onclick="abrirMenuMobile(this, '_toggler')">CONTATO</a>
+
+    <div class="mt-5 pt-3 w-100 text-center">
+         <a href="https://www.instagram.com/aliencore_rock/" target="_blank" class="mx-2"><i class="fab fa-instagram display-2"></i></a>
+         <a href="https://www.facebook.com/aliencorerock" target="_blank" class="mx-2"><i class="fab fa-facebook display-2"></i></a>
+    </div>
+       
+</div>
+<!--MENU MOBILE-->
+
+
+
+
+
+<!--BANNER AGENDA / NAVEGAÇÃO DESKTOP-->
+<header id="header-agenda">
+
+        <!--Navegação desktop-->
+        <nav class="_nav-desk-home p-4 p-xxl-5 w-100 d-flex justify-content-between justify-content-lg-center">
+            <div class="align-self-center d-none d-lg-block">
+                <a href="/" class="mx-2 _hover-link-nav">INÍCIO</a>
+                <a href="/galeria" class="mx-2 _hover-link-nav">GALERIA</a>
+                <a href="/sobre" class="mx-2 _hover-link-nav">SOBRE</a>
+            </div>
+
+            <a href="/" class="align-self-center"><img src="/img/site/logo.png" alt="Logo Alien Core" class="_logo-nav-desktop"></a>
+
+            <div class="align-self-center d-none d-lg-block">
+                <a href="/agenda" class="mx-2 _hover-link-nav _pag-ativa">AGENDA</a>
+                <a href="/noticias" class="mx-2 _hover-link-nav">NOTÍCIAS</a>
+                <a href="#contato" class="mx-2 _hover-link-nav">CONTATO</a>
+            </div>
+
+            <!--Toggler mobile-->
+            <button class="_toggler d-block d-lg-none" onclick="abrirMenuMobile(this)"><i class="fas fa-bars"></i></button>
+            <!--Toggler mobile-->
+        </nav>
+        <!--Navegação desktop-->
+
+
+        <!--Title página-->
+        <div class="title-pagina">
+            <h1>AGENDA</h1>
+            <div>
+                <a href="/">Início</a> | <a href="/agenda">Agenda</a>
+            </div>
+        </div>
+        <!--Title página-->
+     
+</header>
+<!--BANNER AGENDA / NAVEGAÇÃO DESKTOP-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--FORMULÁRIO-->
+{{> form}}
+<!--FORMULÁRIO-->
+
+
+
+<!--FOOTER-->
+<footer class="bg-dark">
+
+    <h1 class="d-none">Footer site banda Alien Core</h1>
+
+    <nav data-aos="fade-up" class="px-5 py-3 w-100 d-none d-lg-flex justify-content-center">
+            <div class="align-self-center">
+                <a href="/" class="mx-2 _hover-link-nav">INÍCIO</a>
+                <a href="/galeria" class="mx-2 _hover-link-nav">GALERIA</a>
+                <a href="/sobre" class="mx-2 _hover-link-nav">SOBRE</a>
+            </div>
+
+            <a href="/" class="align-self-center"><img src="/img/site/logo.png" alt="Logo Alien Core" class="_logo-nav-desktop"></a>
+
+            <div class="align-self-center">
+                <a href="/agenda" class="mx-2 _hover-link-nav _pag-ativa">AGENDA</a>
+                <a href="/noticias" class="mx-2 _hover-link-nav">NOTÍCIAS</a>
+                <a href="#contato" class="mx-2 _hover-link-nav">CONTATO</a>
+            </div>
+    </nav>
+
+    <div data-aos="fade-up" style="border-bottom: 2px solid gray;" class="mt-1 mb-4 w-75 d-none d-lg-block"></div>
+
+
+    <p class="text-center">© 2023 <span class="text-alien">Alien Core</span>. Todos os direitos reservados. <br> Criado por <a href="https://freeladev.website" target="_blank" style="color: orangered;">Freela Dev</a></p>
+      
+</footer>
+<!--FOOTER-->

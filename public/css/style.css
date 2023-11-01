@@ -666,3 +666,320 @@ footer p{
 /*-------------------------------------------*/
 /*----------------PÁGINA HOME----------------*/
 /*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------*/
+/*----------------PÁGINA SOBRE---------------*/
+/*-------------------------------------------*/
+
+/*HEADER*/
+#header-sobre{
+    height: 70vh;
+    width: 100%;
+    background-image: url(/img/site/banner-sobre.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@media(min-width:1500px){
+    #header-sobre{
+        height: 50vh;
+    }
+}
+@media(max-width:992px){
+    #header-sobre{
+        background-position: center;
+        height: 65vh;
+        background-image: url(/img/site/banner-sobre-mobile.png);
+    }
+}
+
+.title-pagina{
+     position: absolute;
+     bottom: 12%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.title-pagina h1{
+     font-size: 55px;
+     margin-bottom: 0px;
+}
+.title-pagina div a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: -10px !important;
+    font-weight: 300 !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media(max-width:992px){
+    .title-pagina h1{
+        font-size: 45px;
+    }
+    .title-pagina div a{
+       font-size: 20px;
+    }
+}
+/*HEADER*/
+
+/*-------------------------------------------*/
+/*----------------PÁGINA SOBRE---------------*/
+/*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+/*----------------PÁGINA GALERIA----------------*/
+/*----------------------------------------------*/
+
+/*HEADER*/
+#header-galeria{
+    height: 70vh;
+    width: 100%;
+    background-image: url(/img/site/banner-galeria.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@media(min-width:1500px){
+    #header-galeria{
+        height: 50vh;
+    }
+}
+@media(max-width:992px){
+    #header-galeria{
+        background-position: center;
+        height: 65vh;
+        background-image: url(/img/site/banner-galeria-mobile.png);
+    }
+}
+
+.title-pagina{
+     position: absolute;
+     bottom: 12%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.title-pagina h1{
+     font-size: 55px;
+     margin-bottom: 0px;
+}
+.title-pagina div a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: -10px !important;
+    font-weight: 300 !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media(max-width:992px){
+    .title-pagina h1{
+        font-size: 45px;
+    }
+    .title-pagina div a{
+       font-size: 20px;
+    }
+}
+/*HEADER*/
+
+
+
+/*GALERIA ALL IMAGES EVENTOS*/
+.container-all-img-evento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 70px auto;
+    padding-bottom: 50px;
+}
+.container-all-img-evento p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.container-all-img-evento h1{
+    font-size: 45px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+@media(max-width:992px){
+    .container-all-img-evento{
+        width: 100%;
+    }
+}
+/*GALERIA ALL IMAGES EVENTOS*/
+
+/*----------------------------------------------*/
+/*----------------PÁGINA GALERIA----------------*/
+/*----------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+/*----------------PÁGINA AGENDA-----------------*/
+/*----------------------------------------------*/
+
+/*HEADER*/
+#header-agenda{
+    height: 70vh;
+    width: 100%;
+    background-image: url(/img/site/banner-agenda.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@media(min-width:1500px){
+    #header-agenda{
+        height: 50vh;
+    }
+}
+@media(max-width:992px){
+    #header-agenda{
+        background-position: center;
+        height: 65vh;
+        background-image: url(/img/site/banner-agenda-mobile.png);
+    }
+}
+
+.title-pagina{
+     position: absolute;
+     bottom: 12%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.title-pagina h1{
+     font-size: 55px;
+     margin-bottom: 0px;
+}
+.title-pagina div a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: -10px !important;
+    font-weight: 300 !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media(max-width:992px){
+    .title-pagina h1{
+        font-size: 45px;
+    }
+    .title-pagina div a{
+       font-size: 20px;
+    }
+}
+/*HEADER*/
+
+/*----------------------------------------------*/
+/*----------------PÁGINA AGENDA-----------------*/
+/*----------------------------------------------*/
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
+/*----------------PÁGINA NOTICIA-----------------*/
+/*-----------------------------------------------*/
+
+/*HEADER*/
+#header-noticia{
+    height: 70vh;
+    width: 100%;
+    background-image: url(/img/site/banner-noticia.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@media(min-width:1500px){
+    #header-noticia{
+        height: 50vh;
+    }
+}
+@media(max-width:992px){
+    #header-noticia{
+        background-position: center;
+        height: 65vh;
+        background-image: url(/img/site/banner-noticia-mobile.png);
+    }
+}
+
+.title-pagina{
+     position: absolute;
+     bottom: 12%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.title-pagina h1{
+     font-size: 55px;
+     margin-bottom: 0px;
+}
+.title-pagina div a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: -10px !important;
+    font-weight: 300 !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media(max-width:992px){
+    .title-pagina h1{
+        font-size: 45px;
+    }
+    .title-pagina div a{
+       font-size: 20px;
+    }
+}
+/*HEADER*/
+
+/*-----------------------------------------------*/
+/*----------------PÁGINA NOTICIA-----------------*/
+/*-----------------------------------------------*/

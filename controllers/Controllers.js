@@ -20,27 +20,27 @@ module.exports = class siteControllers {
 
         //EXIBE SOBRE
             static sobre(req,res){
-            res.render('sobre', {layout: 'home'})
+            res.render('sobre', {layout: 'sobre'})
         }
 
         //EXIBE A GALERIA
         static galeria(req,res){
-            res.render('galeria', {layout: 'home'})
+            res.render('galeria', {layout: 'galeria'})
         }
 
         //EXIBE A AGENDA
         static agenda(req,res){
-            res.render('agenda', {layout: 'home'})
+            res.render('agenda', {layout: 'agenda'})
         }
 
         //EXIBE NOTICIAS
         static noticias(req,res){
-            res.render('noticias', {layout: 'home'})
+            res.render('noticias', {layout: 'noticias'})
         }
 
         //EXIBE NOTICIA
         static noticia(req,res){
-            res.render('noticia', {layout: 'home'})
+            res.render('noticia', {layout: 'noticias'})
         }
 
 }
