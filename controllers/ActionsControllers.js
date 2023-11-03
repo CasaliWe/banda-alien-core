@@ -41,7 +41,12 @@ module.exports = class actionControllers {
                 from: user,
                 to: email,
                 subject: 'Recebemos o seu contato!',
-                text: `Olá ${nome}, A banda Alien Core fica feliz pelo seu interesse, logo entraremos em contato, Tenha um bom dia!`
+                html: `
+                       <p>Olá ${nome}, A banda Alien Core fica feliz pelo seu interesse, logo entraremos em contato, Tenha um bom dia!</p>
+                       
+                       <img src="https://aliencore.website/img/site/banner-agenda.png" style="width: 100%; margin-top: 35px;">
+                      
+                       `
             }).then((info)=>{console.log('Email Enviado para o user')}).catch(err => console.log(err))
 
             //PARA O WESLEI

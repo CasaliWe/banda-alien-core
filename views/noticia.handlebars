@@ -68,10 +68,10 @@
 <!--NOTICIA UNICA-->
 <section id="noticia-unica" class="py-5 bg-dark">
         <div class="_container-noticia-unica d-flex flex-column justify-content-center align-items-start">
-            <h4 class="text-white">Lorem Ipsum is simply dummy text</h4>
-            <h6 class="text-alien">MAIO - 2023</h6>
-            <div id="container-imagem-noticia"> <img src="/img/site/example1.jpg"> </div>
-            <p class="text-secondary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <h4 class="text-white">{{noticia.titulo}}</h4>
+            <h6 class="text-alien">{{noticia.data}}</h6>
+            <div id="container-imagem-noticia"> <img src="{{noticia.imagem}}"> </div>
+            <p class="text-secondary">{{noticia.descri}}</p>
             <a href="/noticias">Todas as notícias</a>
         </div>
 </section>

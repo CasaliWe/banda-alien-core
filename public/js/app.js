@@ -21,22 +21,22 @@ function abrirApresentacao(integrante){
     if(integrante == 'jasan'){
            document.getElementById("img-apresentacao").src = '/img/site/jasan.jpg'
            document.getElementById('nome-apresentacao').innerHTML = 'Jasan Dysarz' 
-           digitalizar("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic");
+           digitalizar('Jasan Dysarz é o guitarrista solo da banda Aliencore Rock. Ele teve seu primeiro contato com a guitarra aos 6 anos, começando com um violão Gianinni MPB 1992. Embora não tenha tido aulas naquela época, aos 15 anos, inspirado por lendas da guitarra como Slash, Jimmy Page e Eric Clapton, ele decidiu aprender a tocar guitarra de vez. Adquiriu sua primeira guitarra elétrica, uma Menphis by Tagima, e desde então tem desenvolvido suas habilidades como guitarrista solo na Aliencore Rock, incorporando suas influências musicais em seu estilo de tocar.');
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }else if(integrante == 'weslei'){
            document.getElementById("img-apresentacao").src = '/img/site/weslei.jpeg'
            document.getElementById('nome-apresentacao').innerHTML = 'Weslei Casali'
-           digitalizar("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic");
+           digitalizar("Weslei Casali, com 25 anos de idade, possui uma sólida trajetória de 11 anos como baterista. Desde 2015, ele tem participado ativamente do cenário musical de Passo Fundo, tocando em diversas bandas e explorando uma ampla gama de estilos musicais, que vão desde o rock internacional até o rock nacional. Suas influências incluem bandas como Slipknot, Avenged Sevenfold, Bullet for My Valentine e Linkin Park. Além disso, Weslei é o fundador da banda Alien Core, onde continua a deixar sua marca na cena musical local.");
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }else if(integrante == 'gui'){
            document.getElementById("img-apresentacao").src = '/img/site/gui.jpg'
            document.getElementById('nome-apresentacao').innerHTML = 'Gui Zordan'
-           digitalizar("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic");
+           digitalizar("Guilherme Zordan é um profissional que atua na área de engenharia de áudio. Ele tem experiência em trabalhar com instrumentos de corda e vocalização. Guilherme é conhecido por sua competência técnica e compreensão dos aspectos acústicos e eletrônicos da produção musical. Ele se destaca pela forma como incorpora sua paixão por instrumentos de corda e vocalização em seu trabalho.");
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }else if(integrante == 'wilson'){
            document.getElementById("img-apresentacao").src = '/img/site/wilson.jpg'
            document.getElementById('nome-apresentacao').innerHTML = 'Danny Fernandes'
-           digitalizar("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic");
+           digitalizar("Wilson, mais conhecido como Danny Fernandes, foi inspirado a entrar no mundo da música ao ouvir a banda Linkin Park, popular nas rádios brasileiras nos anos 2000. Inicialmente, ele se identificou com o estilo emocore. Ao longo de sua jornada musical, ele estudou e tocou vários instrumentos, incluindo guitarra, teclado e bateria, além de ter feito um curso vocal na igreja quando era jovem. Atualmente, está se dedicando ao contrabaixo, explorando novos horizontes em sua carreira musical.");
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }
 
@@ -130,12 +130,12 @@ function segundoAnimaDigitar(){
 
 
 //HOVER EM CIMA DA CAPA SINGLE PARA MOSTRAR ICONS STRAMS
-document.getElementById("container-capa-single").addEventListener('mouseenter', ()=>{
-     document.getElementById("container-icons-stream").style.cssText = 'opacity: 1;'
-     document.getElementById("alien-face").style.cssText = 'left: 57%;'
-})
+function mostrarIconsStream(){
+    document.getElementById("container-icons-stream").style.cssText = 'opacity: 1;'
+    document.getElementById("alien-face").style.cssText = 'left: 57%;'
+}
 
-document.getElementById("container-capa-single").addEventListener('mouseleave', ()=>{
+function esconderIconsStream(){
     document.getElementById("container-icons-stream").style.cssText = 'opacity: 0;'
     document.getElementById("alien-face").style.cssText = 'left: 45%;'
-})
+}
