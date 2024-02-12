@@ -30,7 +30,7 @@ module.exports = class actionControllers {
 
         //ENVIAR FORMULÁRIO
         static envioForm(req,res){
-
+            /*
             var nome = req.body.nome
             var email = req.body.email
             var wpp = req.body.whatsapp
@@ -63,7 +63,7 @@ module.exports = class actionControllers {
                       
                 `
             }).then((info)=>{console.log('Email Enviado para SEO')}).catch(err => console.log(err))
-
+            */
 
             req.flash('message','Contato enviado com sucesso!') 
             req.session.save(()=>{

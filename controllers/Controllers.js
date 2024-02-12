@@ -44,6 +44,13 @@ module.exports = class siteControllers {
             const id = req.params.id
 
             //Noticias únicas
+            var noticia0 = {
+                titulo: 'This Woman - Novo single',
+                data: 'Feveiro - 2024',
+                imagem: '/img/site/this-woman.jpeg',
+                descri: 'De volta a ativa, novo single será lançado dia 17 de fevereiro de 2024, "THIS WOMAN", aguardem...'
+            }
+
             var noticia1 = {
                 titulo: 'Prestes a lançar seu segundo single',
                 data: 'Novembro - 2023',
@@ -67,7 +74,9 @@ module.exports = class siteControllers {
 
             var noticia = ''
              
-            if(id == 1){
+            if(id == 0){
+                noticia = noticia0
+            }else if(id == 1){
                 noticia = noticia1
             }else if(id == 2){
                 noticia = noticia2
