@@ -18,10 +18,10 @@ function abrirMenuMobile(e, param){
 //ABRIR MODAL APRESENTAÇÃO
 function abrirApresentacao(integrante){
 
-    if(integrante == 'jasan'){
-           document.getElementById("img-apresentacao").src = '/img/site/jasan.jpg'
-           document.getElementById('nome-apresentacao').innerHTML = 'Jasan Dysarz' 
-           digitalizar('Jasan Dysarz é o guitarrista solo da banda Aliencore Rock. Ele teve seu primeiro contato com a guitarra aos 6 anos, começando com um violão Gianinni MPB 1992. Embora não tenha tido aulas naquela época, aos 15 anos, inspirado por lendas da guitarra como Slash, Jimmy Page e Eric Clapton, ele decidiu aprender a tocar guitarra de vez. Adquiriu sua primeira guitarra elétrica, uma Menphis by Tagima, e desde então tem desenvolvido suas habilidades como guitarrista solo na Aliencore Rock, incorporando suas influências musicais em seu estilo de tocar.');
+    if(integrante == 'jean'){
+           document.getElementById("img-apresentacao").src = '/img/site/jean.jpeg'
+           document.getElementById('nome-apresentacao').innerHTML = 'Jean Machado' 
+           digitalizar('Jean é um talentoso guitarrista cuja paixão pela música começou aos 10 anos, quando recebeu sua primeira guitarra. Inspirado por lendas como Slash, Eddie Clarke e Mick Mars, ele mergulhou de cabeça no mundo da guitarra, buscando aperfeiçoar suas habilidades e desenvolver seu próprio estilo único.');
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }else if(integrante == 'weslei'){
            document.getElementById("img-apresentacao").src = '/img/site/weslei.jpeg'

@@ -137,8 +137,8 @@ a{
 
 /*----------------------------CONTATO-----------------------------*/
 #contato{
-    background-image: url('/img/site/capa-form.png');
-    background-position: center;
+    background-image: url('/img/site/capa-formulario.jpg');
+    background-position: end;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -206,7 +206,7 @@ footer p{
 
 /*HEADER*/
 ._header-home{
-     background-image: url('/img/site/capa-inicial.png');
+     background-image: url('/img/site/capa-home.jpeg');
      background-attachment: fixed;
      background-position: center;
      background-size: cover;
@@ -216,9 +216,9 @@ footer p{
 }
 @media(max-width:992px){
     ._header-home{
-        background-image: url('/img/site/capa-inicial-mobile.png');
+        background-image: url('/img/site/capa-home-mobile.jpeg');
         background-attachment: fixed;
-        height: 70vh;
+        height:85vh;
     }
 }
 
@@ -488,10 +488,10 @@ footer p{
 
 /*SHOWS ALIEN CORE*/
 #shows-alien-core-home{
-      background-image: url('/img/site/shows.png');
+      background-image: url('/img/site/capa-home.jpeg');
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-position: center;
+      background-position: right;
       background-size: cover;
       height: 70vh;
       width: 100%;
@@ -532,7 +532,7 @@ footer p{
 
 @media(max-width:992px){
     #shows-alien-core-home{
-        height: 60vh;
+        height: 50vh;
         padding: 15px !important;
         display: flex;
         justify-content: center;
@@ -693,7 +693,7 @@ footer p{
 #header-sobre{
     height: 70vh;
     width: 100%;
-    background-image: url(/img/site/banner-sobre.png);
+    background-image: url(/img/site/capa-home.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -706,8 +706,7 @@ footer p{
 @media(max-width:992px){
     #header-sobre{
         background-position: center;
-        height: 65vh;
-        background-image: url(/img/site/banner-sobre-mobile.png);
+        height: 50vh;
     }
 }
 
@@ -821,7 +820,7 @@ footer p{
 #header-galeria{
     height: 70vh;
     width: 100%;
-    background-image: url(/img/site/banner-galeria.png);
+    background-image: url(/img/site/capa-home.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -834,8 +833,7 @@ footer p{
 @media(max-width:992px){
     #header-galeria{
         background-position: center;
-        height: 65vh;
-        background-image: url(/img/site/banner-galeria-mobile.png);
+        height: 50vh;
     }
 }
 
@@ -917,7 +915,7 @@ footer p{
 #header-agenda{
     height: 70vh;
     width: 100%;
-    background-image: url(/img/site/banner-agenda.png);
+    background-image: url(/img/site/capa-home.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -930,8 +928,7 @@ footer p{
 @media(max-width:992px){
     #header-agenda{
         background-position: center;
-        height: 65vh;
-        background-image: url(/img/site/banner-agenda-mobile.png);
+        height: 50vh;
     }
 }
 
@@ -1031,7 +1028,7 @@ footer p{
 #header-noticia{
     height: 70vh;
     width: 100%;
-    background-image: url(/img/site/banner-noticia.png);
+    background-image: url(/img/site/capa-home.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1044,8 +1041,7 @@ footer p{
 @media(max-width:992px){
     #header-noticia{
         background-position: center;
-        height: 65vh;
-        background-image: url(/img/site/banner-noticia-mobile.png);
+        height: 50vh;
     }
 }
 
