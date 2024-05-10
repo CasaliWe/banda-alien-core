@@ -65,7 +65,9 @@ app.use('/', siteRoutes)
 
 
 
+const PORT = process.env.PORT || 3000;
+
 conn.sync().then(()=>{
-    app.listen(3000)
+    app.listen(PORT)
 }).catch((err) => console.log(err))
 // {force:true}
