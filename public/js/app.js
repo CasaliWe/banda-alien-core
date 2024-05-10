@@ -26,7 +26,7 @@ function abrirApresentacao(integrante){
     }else if(integrante == 'weslei'){
            document.getElementById("img-apresentacao").src = '/img/site/weslei.jpeg'
            document.getElementById('nome-apresentacao').innerHTML = 'Weslei Casali'
-           digitalizar("Weslei Casali, com 25 anos de idade, possui uma sólida trajetória de 11 anos como baterista. Desde 2015, ele tem participado ativamente do cenário musical de Passo Fundo, tocando em diversas bandas e explorando uma ampla gama de estilos musicais, que vão desde o rock internacional até o rock nacional. Suas influências incluem bandas como Slipknot, Avenged Sevenfold, Bullet for My Valentine e Linkin Park. Além disso, Weslei é o fundador da banda Alien Core, onde continua a deixar sua marca na cena musical local.");
+           digitalizar("Weslei Casali, com 26 anos de idade, possui uma sólida trajetória de 11 anos como baterista. Desde 2015, ele tem participado ativamente do cenário musical de Passo Fundo, tocando em diversas bandas e explorando uma ampla gama de estilos musicais, que vão desde o rock internacional até o rock nacional. Suas influências incluem bandas como Slipknot, Avenged Sevenfold, Bullet for My Valentine e Linkin Park. Além disso, Weslei é o fundador da banda Alien Core, onde continua a deixar sua marca na cena musical local.");
            document.getElementById("apresentacao-integrantes").style.cssText = 'opacity: 1; width: 100%;'
     }else if(integrante == 'gui'){
            document.getElementById("img-apresentacao").src = '/img/site/gui.jpg'
